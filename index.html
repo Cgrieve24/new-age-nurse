@@ -22,6 +22,13 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+            margin-bottom: 6rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 5px;
         }
         footer {
             background-color: #34495e;
@@ -31,6 +38,41 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .cta-card {
+            background-color: #3498db;
+            color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            text-align: center;
+            margin: 2rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: #3498db;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: transform 0.3s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
         }
     </style>
 </head>
@@ -43,6 +85,39 @@
         <section>
             <h2>Welcome</h2>
             <p>Learn about the intersection of modern technology and nursing practice.</p>
+        </section>
+        
+        <div class="cta-card">
+            <h2 style="color: white; border-bottom: 2px solid white;">Quick BMI Calculator</h2>
+            <p>Access our easy-to-use BMI calculator tool for quick patient assessments</p>
+            <a href="bmi.html" class="cta-button">Calculate BMI</a>
+        </div>
+
+        <section>
+            <h2>Digital Health Tools</h2>
+            <ul>
+                <li>Electronic Health Records (EHR) systems and best practices</li>
+                <li>Mobile medical reference apps and point-of-care tools</li>
+                <li>Telehealth platforms and remote patient monitoring</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Best Practices</h2>
+            <ul>
+                <li>Implementing technology in daily nursing workflows</li>
+                <li>Ensuring patient data security and privacy compliance</li>
+                <li>Digital communication with patients and healthcare team</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Resources</h2>
+            <ul>
+                <li>Online continuing education opportunities</li>
+                <li>Digital nursing tools and software guides</li>
+                <li>Professional development resources</li>
+            </ul>
         </section>
     </main>
     <footer>
